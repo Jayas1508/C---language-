@@ -8,15 +8,15 @@
 		{
 		return x-y;
 		}
-	void multi (int x, int y)
+	int multi (int x, int y)
 		{
 		printf("multi = %d",x*y);
 		}
-	void div (int x, int y)
+	int div (int x, int y)
 		{
 		printf("div = %d",x/y);
 		}
-	void modulo (int x, int y)
+	int modulo (int x, int y)
 		{
 		printf("modulo = %d",x%y);
 		}
